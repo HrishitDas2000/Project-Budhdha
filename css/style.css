@@ -29,7 +29,7 @@
   }
 /*navbar styles */
 
-  .navbar {
+  #bootstrap-overrides .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
     z-index: 9999;
@@ -39,6 +39,7 @@
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
+    padding: 0rem !important;
   }
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
